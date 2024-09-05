@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculation{
+    width: 410px;
+    height: 570px;
+    border: 2px solid gray;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px blue,-2px -2px 5px red;
+    
+}
+.calculation h1{
+    font-size: 40px;
+    text-align: center;
+}
+input.btn{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    font-size: 35px;
+    
+   
+}
+.btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+    
+}
+.btn:active{
+    transform: scale(1.2);
+}
